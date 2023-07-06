@@ -1,0 +1,79 @@
+
+#TO-Do{
+  display: flex;
+  justify-content: left;
+  
+  border: 1px transparent;
+  background-color: azure;
+  width:fit-content;
+  height: 36px;
+  padding: 5px;
+}
+#div1{
+  width: auto;
+}
+
+.container{
+  width: 600px;
+}
+.list-group-item{
+  padding: 10px;
+}
+.disable {
+  cursor: not-allowed;
+}
+footer {
+  margin-top: 200px;
+  position: fixed;
+  color: black;
+  padding: 5px;
+  text-align: center;
+}
+
+.br{
+  border: none;
+  border-radius: 70px;
+  padding: 2px;
+  background-color: white;
+}
+.appear-animation {
+  opacity: 0;
+  animation: slideIn 1s ease-in-out forwards;
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#btn2{
+  display: inline;
+  position: absolute;
+}
+#nid1,#nid2{
+  display: inline;
+  width: 1px;
+  padding: 5px;
+}
+
+ header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+
+
+
+
+
+
+
+
